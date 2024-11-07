@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARPINTERIA ZAMVAZ</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('1.png'); /* Cambiado el fondo a 1.png */
+            background-size: cover; /* Hace que la imagen cubra todo el fondo */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            background-position: center; /* Centra la imagen */
+            display: flex; /* Usamos flexbox para la distribución */
+            flex-direction: column; /* Colocamos los elementos en columna */
+            min-height: 100vh; /* Asegura que el body tenga al menos la altura de la ventana */
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li {
+            margin: 0 10px; /* Espaciado horizontal entre los elementos */
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px; /* Espaciado para hacer el botón más grande */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s; /* Efecto de transición en el fondo */
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(255, 255, 255, 0.2); /* Fondo al pasar el mouse */
+        }
+
+        section {
+            padding: 20px; /* Ajuste de padding para reducir el tamaño del contorno */
+            max-width: 500px; /* Ancho máximo ajustado al contenido */
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+            margin: 20px auto; /* Centrar la sección */
+            border-radius: 10px;
+            text-align: left; /* Alineación del texto */
+        }
+
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente similar al anterior */
+            color: white;
+            margin-top: auto; /* Empuja el footer hacia abajo */
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienesomos.html">Quiénes Somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="redes.html">Redes Sociales</a></li> <!-- Cambiado a redes.html -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de inicio -->
+    <section id="inicio">
+        <h1>Bienvenido a Carpintería ZAMVAZ, donde encontrarás una gran variedad de muebles a tu medida.</h1>
+        <a href="presupuestos.html" class="cta">Solicitar presupuesto</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ZAMVAZ Carpintería. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

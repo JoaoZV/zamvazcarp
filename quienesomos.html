@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos - Carpintería ZAMVAZ</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+    <style>
+        body {
+            background-image: url('1.png'); /* Imagen de fondo */
+            background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0; /* Eliminado el padding para que el footer esté completamente abajo */
+            color: #333; /* Color del texto */
+            display: flex; /* Usamos flexbox para la distribución */
+            flex-direction: column; /* Colocamos los elementos en columna */
+            min-height: 100vh; /* Asegura que el body tenga al menos la altura de la ventana */
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        section {
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            flex: 1; /* Permite que la sección tome el espacio disponible */
+        }
+
+        h1, h2, h3 {
+            color: #000; /* Cambia el color del encabezado a negro */
+        }
+
+        p {
+            color: #000; /* Cambia el color del texto a negro para la sección "Quiénes Somos" */
+        }
+
+        .cta {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #A67C52; /* Color marrón */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+            color: white;
+        }
+
+        /* Estilo para las secciones de Misión, Visión y Valores */
+        .mission-vision-values {
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienesomos.html">Quiénes Somos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Quiénes Somos -->
+    <section id="quienes-somos">
+        <h1>Quiénes Somos</h1>
+        <p>En Carpintería ZAMVAZ nos complace ayudarte a amueblar mejor tu casa con ayuda de nuestro personal capacitado, liderado por el maestro en carpintería "Edgar Arturo Zamarripa de Luna", quien, con 30 años de experiencia, cuenta con una vasta trayectoria en la creación de muebles a medida.</p>
+        
+        <div class="mission-vision-values">
+            <h2>Nuestra Misión</h2>
+            <p style="color: #000;">Nos comprometemos a ofrecer productos de alta calidad, diseñados a medida para satisfacer las necesidades específicas de cada cliente. Valoramos la artesanía y el trabajo personalizado, asegurando que cada pieza sea única y refleje el estilo de nuestros clientes.</p>
+        
+            <h2>Nuestra Visión</h2>
+            <p style="color: #000;">Buscamos ser la carpintería líder en nuestra región, reconocida por la calidad de nuestros muebles y el excelente servicio al cliente. Aspiramos a crear un espacio donde la creatividad y la funcionalidad se unan para transformar los hogares de nuestros clientes.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ZAMVAZ Carpintería. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

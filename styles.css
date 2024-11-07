@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('fondocarpinteriaindex.PNG');
+    background-size: cover; /* Ajusta la imagen para cubrir completamente la pantalla */
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh; /* Asegura que el contenedor mínimo sea la altura completa de la ventana */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 30px; /* Ajusta el padding */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente */
+    margin: 20px auto; /* Centrar horizontalmente */
+    border-radius: 10px;
+    max-width: 600px; /* Ancho máximo para la sección */
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555; /* Color gris oscuro */
+}
+
+p {
+    color: #555; /* Texto del párrafo */
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #A67C52; /* Color marrón */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    section {
+        padding: 30px; /* Reducir padding en pantallas pequeñas */
+        margin: 10px; /* Reducir margen en pantallas pequeñas */
+    }
+
+    nav ul {
+        flex-direction: column; /* Cambia la dirección de la lista a columna */
+        align-items: center; /* Centra los enlaces */
+    }
+
+    nav ul li a {
+        padding: 5px; /* Ajustar el padding */
+        font-size: 16px; /* Ajustar el tamaño de fuente */
+    }
+
+    h2 {
+        font-size: 24px; /* Ajustar el tamaño del encabezado */
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li a {
+        font-size: 14px; /* Reducir tamaño de fuente en pantallas muy pequeñas */
+    }
+
+    h2 {
+        font-size: 20px; /* Ajustar el tamaño del encabezado */
+    }
+
+    button {
+        padding: 8px; /* Reducir padding del botón */
+        font-size: 16px; /* Ajustar tamaño de fuente del botón */
+    }
+}
